@@ -1,0 +1,98 @@
+@media screen and (min-width: 992px) { 
+    /* remove the padding from the navbar so the dropdown hover state is not broken */
+    .navbar {     background: #fff !important;  padding-top:0px;   padding-bottom:0px; box-shadow: 0 0px 4px 1px #a5a0a0;} 
+    /* remove the padding from the nav-item and add some margin to give some breathing room on hovers */
+    .navbar .nav-item {padding:.5rem .5rem;margin:0 .25rem;}
+    /* makes the dropdown full width  */
+    .navbar .dropdown {position:static;}
+    .navbar .dropdown-menu {padding: 0; width:100%;left:0;right:0; border-radius: 0; /*  height of nav-item  */top:93px;   display:block;   visibility: hidden;   opacity: 0;   transition: visibility 0s, opacity 0.3s linear; }
+    /* shows the dropdown menu on hover */
+    .navbar .dropdown:hover .dropdown-menu, .navbar .dropdown .dropdown-menu:hover {display:block;   visibility: visible;opacity: 1;   transition: visibility 0s, opacity 0.3s linear;} 
+}
+
+
+@media only screen and (max-width: 1199px){
+    .container > .row{margin: 0;}
+    .footer-nav ul{padding: 0; margin:0;}
+}
+
+@media only screen and (max-width: 992px){
+    .section-padding{padding: 30px 0;}
+    .meta-info{margin-top: 10px;}
+    h4{line-height: 25px;font-size: 18px;}
+    h2,.registration-info h2{font-size: 32px;line-height: 34px;}
+    .features-section{padding: 60px 0;}
+    .logo{width: 90px;}
+    .header-menu li{margin-right: 30px;}
+}
+
+@media only screen and (max-width: 767px){
+    .logo{height: 64px;}
+    .header-menu li{float: left;width: 100%;padding: 0;}
+    .header-menu li{margin-right: 0;margin-bottom: 10px;}
+    .header{padding: 10px 0;}
+    .navbar-right{margin-top: 0px;width: 100%;}
+    .header-menu li a{line-height: 23px; font-size: 18px}
+    .footer h4{margin-bottom: 10px;}
+    .footer ul li{margin-bottom: 5px;}
+    .navbar-nav .open .dropdown-menu>li>a{line-height: 10px;}
+    .navbar-toggle{padding: 24px 10px}
+    .margin-top{margin-top: 84px;padding: 30px 0;}
+    .padding-bottom{padding-bottom: 10px;}
+    .bottom-footer{padding: 30px 0;}
+    .btn-navi {font-size: 18px;}
+    .order-modal-dialog {margin-left: 3em;}
+    .order-modal-content{width: 90%;}
+    .inner-btn-section h2 {font-size: 20px; text-align: center;padding: 12px 0 0 0;}
+    .inner-btn-section p {display: none;}
+    .btn-modal {font-size: 13px;}
+    .modal-header .close {margin-top: 1px;    margin-right: 13px;}
+    .order-modal-title {font-size: 21px;padding: 12px 0; text-align: center; color: #fff}
+    .logo img { float: left;width: 100%;height: 56px;}
+
+
+    /*contact page start*/
+    .contact-main h2 {  font-size: 30px;}
+    .contact-main {    padding: 231px 0 206px;}
+    .footer-nav .logo img { height: 92px;}
+    .form-section .col-md-7{padding: 30px 0px 0px 0;}
+    /*contact page end*/
+
+
+    /*header start*/
+    .form-inline {    margin-left: 0em;    margin-right: 0;     width: 100%;}
+    .has-search {    width: 10em !important;}
+    /*header end*/
+
+   /*about start*/
+   .about-main h2 {    font-size: 35px;}
+   .about-main {    padding: 225px 0 249px;}
+   .desc-div p{font-size: 12px;padding: 3px 0 20px;}
+   .desc-div h4{    font-size: 16px; padding-top: 16px;}
+   .why-desc h3 {    font-size: 26px;}
+   .why-txt {  padding: 19px 0 11px 63px;}
+   .team-section h2 {    padding: 3px 0 14px;font-size: 24px;}
+   .team-section .outer-div {    box-shadow: 0 0 6px #888; padding: 0px 0 37px;    margin-bottom: 22px;}
+   /*about end*/
+
+   /*index start*/
+   	.owl-banner.banner .item figure img {float: left;    width: 100%;    height: 145px;}
+	.owl-banner.banner .item figure { float: left;    width: 100%;    height: 145px;}
+	.banner {    min-height: 145px; background-color: #000;}
+	.category-section {margin-top: 7.3em;    padding-bottom: 50px;    background: lavender;    margin-bottom: 5px;    box-shadow: 0 3px 5px 3px #a5a0a0; padding-top: 32px;}
+   	.product-slider {    padding: 0px 0;}
+   	.ad-col img {    margin-top: 11px;}
+   	.top-product-slider .item figure img {height: 189px;    width: 100%;    object-fit: contain;}
+   	.produ-desc h4 {    font-size: 13px;    padding-top: 10px;}
+   	.top-product {padding: 70px 0 0;}
+   	.product-slider .item figure img {height: 135px;    width: 100%;    object-fit: contain;}
+.product-slider .produ-desc button {
+    border: none;
+    padding: 6px 4px 8px 4px;
+    background: #ff602c;
+    border-radius: 0;
+    margin-top: 5px;
+}
+   /*index end*/
+}
+
